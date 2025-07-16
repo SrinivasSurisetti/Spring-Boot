@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+    version="5.0"
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:javaee="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+<servlet> /// creating a friend contlr that is Dispatcher servlet.
+<servlet-name>spring</servlet-name> /// Name Of the friend controller is Spring
+<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> /// Importing Dispatcher servelt from this webSite
+</servlet>
+
+<servlet-mapping>
+<servlet-name>spring</servlet-name>
+<url-pattern>/</url-pattern>
+</servlet-mapping>
+
+</web-app>
